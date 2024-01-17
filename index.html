@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <meta name="theme-color" content="#E4F9F5" />
+    <meta http-equiv="cache-control" content="no-cache" />
+    <meta http-equiv="expires" content="0" />
+    <meta http-equiv="pragma" content="no-cache" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Heebo&family=Montserrat&family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="assets/favicon.png" />
+    <title>Tu Commit,nuestro push</title>
+  </head>
+
+  <body id="body-id">
+    <div id="nav-bar">
+      <div id="body-title">
+        <a href="#">
+          <img
+            src="/img/logo/Logo.png"
+            alt="GIT CODE  Logo"
+            id="title-text"
+            class="edie dark-logo"
+          />
+        </a>
+      </div>
+
+      <div id="nav-items">
+        <input type="checkbox" id="check" onclick="JavaScript:clicksOpen()" />
+        <label for="check" class="checkbtn">
+          <i class="material-icons menu">menu</i>
+        </label>
+        <label for="check" class="checkbtnclose">
+          <i class="material-icons close">close</i>
+        </label>
+
+        <input
+          type="checkbox"
+          id="check-low"
+          onclick="JavaScript:darkLight()"
+        />
+        <label for="check-low" class="light_mode">
+          <i class="material-icons light_mode">light_mode</i>
+        </label>
+        <label for="check-low" class="dark_mode">
+          <i class="material-icons dark_mode">dark_mode</i>
+        </label>
+
+        <ul id="nav-item">
+          <li id="home-div" class="c-text">
+            <a href="#home" class="styling" onclick="JavaScript:clicksClose()">
+              <span id="home-text" class="ctext">Inicio</span>
+            </a>
+          </li>
+          <li id="collect-div" class="c-text">
+            <a href="#service" onclick="JavaScript:clicksClose()">
+              <span id="collect-text" class="ctext">Servicios</span>
+            </a>
+          </li>
+          <li id="about-div" class="c-text">
+            <a href="#work" onclick="JavaScript:clicksClose()">
+              <span id="about-text" class="ctext">Nuestros Proyectos</span>
+            </a>
+          </li>
+          <li id="contact-div" class="c-text">
+            <a href="#client" onclick="JavaScript:clicksClose()">
+              <span id="contact-text" class="ctext">Clientes</span>
+            </a>
+          </li>
+          <li id="contact-div" class="c-text">
+            <a href="#contact" onclick="JavaScript:clicksClose()">
+              <span id="contact-text" class="ctext">Contacto</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <main>
+      <div id="home">
+        <p id="m1" class="starter">
+          ¿No estás satisfecho con tu página web actual?
+        </p>
+
+        <p id="m2" class="starter">
+          Creamos servicios web hermosos y adaptables.
+        </p>
+
+        <img src="/img/heroImage.jpg" alt="Hero Image" id="heroimg" />
+
+        <p id="m3" class="starter">Narrativa, Emoción y Propósito.</p>
+
+        <p id="m4" class="starter">
+          Ayudamos a plasmar tus ideas en aplicaciones reales que superarán a tu
+          competencia y te acercarán a tus metas estratégicas en tiempo récord.
+        </p>
+
+        <label for="mail">
+          <p id="m5" class="starter">¿Quieres que te contactemos?</p>
+          <span>
+            <input
+              type="email"
+              name="email"
+              id="mail"
+              placeholder="Correo electrónico"
+              class="starter"
+            />
+            <input type="button" value="Únete" class="starter" id="subbtn" />
+          </span>
+        </label>
+      </div>
+
+      <div id="service">
+        <p id="s1" class="starter subtitles">
+          Ofrecemos servicios de alta demanda
+        </p>
+
+        <div class="row">
+          <div class="col3" id="coll1">
+            <div class="div-icons" id="blue">
+              <i class="material-icons edit">edit</i>
+            </div>
+
+            <p class="titles">Diseño UI/UX</p>
+
+            <p class="descriptions">
+              Creamos experiencias cautivadoras que destacarán tu presencia
+              online.
+            </p>
+
+            <input type="button" value="Comenzar" class="serbtn starter" />
+          </div>
+
+          <div class="col3" id="coll2">
+            <div class="div-icons" id="green">
+              <i class="material-icons code">code</i>
+            </div>
+
+            <p class="titles">Front End</p>
+
+            <p class="descriptions">
+              Desarrollamos interfaces atractivas con tecnologías de última
+              generación.
+            </p>
+
+            <input type="button" value="Comenzar" class="serbtn starter" />
+          </div>
+
+          <div class="col3" id="coll3">
+            <div class="div-icons" id="pink">
+              <i class="material-icons storage"> storage </i>
+            </div>
+
+            <p class="titles">Back End</p>
+
+            <p class="descriptions">
+              Construimos bases sólidas para garantizar el funcionamiento
+              eficiente de tu sitio.
+            </p>
+
+            <input type="button" value="Comenzar" class="serbtn starter" />
+          </div>
+        </div>
+      </div>
+
+      <div id="work">
+        <p id="w1" class="starter subtitles">Buen diseño, buen negocio</p>
+
+        <div class="row wr">
+          <div class="col1" id="col-1">
+            <div class="img-col1" id="img-1"></div>
+            <p class="mini-titles">Aplicación Full Stack</p>
+            <p class="application">
+              Panel de control para hogares inteligentes
+            </p>
+          </div>
+
+          <div class="col2" id="col-2">
+            <div class="img-col2" id="img-2"></div>
+            <p class="mini-titles">Diseño UX/UI</p>
+            <p class="application">Aplicación de bienvenida</p>
+          </div>
+        </div>
+
+        <div class="row wr">
+          <div class="col1" id="col-1">
+            <div class="img-col1" id="img-3"></div>
+            <p class="mini-titles">Aplicación Móvil</p>
+            <p class="application">Sistema de reservas</p>
+          </div>
+
+          <div class="col2" id="col-2">
+            <div class="img-col2" id="img-4"></div>
+            <p class="mini-titles">Aplicación Front End</p>
+            <p class="application">Página de inicio para productos de jugo</p>
+          </div>
+        </div>
+
+        <p id="w2" class="starter">Ver más →</p>
+      </div>
+
+      <div id="client">
+        <div id="reverse-uno">
+          <div class="team">
+            <div>
+              <div id="tm1" class="team3"></div>
+            </div>
+            <div>
+              <div>
+                <div id="tm2" class="team3"></div>
+              </div>
+              <div>
+                <div id="tm3" class="team3"></div>
+              </div>
+            </div>
+          </div>
+
+          <div id="team-text">
+            <p id="c1" class="starter subtitles">Conoce al equipo</p>
+            <p id="c2" class="starter">Somos un equipo relajado y creativo</p>
+            <p id="c3">
+              Creamos experiencias web que inspiran. ¡Descubre lo que podemos
+              hacer por ti!
+            </p>
+          </div>
+        </div>
+
+        <div id="quote">
+          <p id="c4" class="starter subtitles">
+            “Resultados rápidos y excepcionales. En WebCrafters entendemos las
+            necesidades de nuestros clientes. Contamos con un equipo joven y
+            talentoso.”
+          </p>
+
+          <img src="/img/person4.png" alt="cliente" id="client-img" />
+          <div id="client-details">
+            <p id="c5">Carlos Tran</p>
+            <p id="c6">The Decorate Gatsby</p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div id="contact">
+        <div class="row rows-con">
+          <div>
+            <ol>
+              <li class="contact-link">
+                <a href="#home">
+                  <span>Inicio</span>
+                </a>
+              </li>
+              <li class="contact-link">
+                <a href="#service">
+                  <span>Servicios</span>
+                </a>
+              </li>
+              <li class="contact-link">
+                <a href="#work">
+                  <span>Nuestros Proyectos</span>
+                </a>
+              </li>
+              <li class="contact-link">
+                <a href="#client">
+                  <span>Clientes</span>
+                </a>
+              </li>
+              <li class="contact-link">
+                <a href="#contact">
+                  <span>Contacto</span>
+                </a>
+              </li>
+            </ol>
+          </div>
+
+          <div>
+            <p id="owner" class="edie">GitCode</p>
+            <div class="socials">
+              <img src="/img/socials/instagram.svg" alt="instagram" />
+              <img src="/img/socials/linkedin.svg" alt="linkedin" />
+              <img src="/img/socials/twitter.svg" alt="twitter" />
+            </div>
+          </div>
+
+          <div>
+            <label for="mail-low" id="low">
+              <p id="label-mail" class="starter">
+                ¿Quieres que te contactemos?
+              </p>
+              <span>
+                <input
+                  type="email"
+                  name="email"
+                  class="starter"
+                  id="mail-low"
+                  placeholder="Correo electrónico"
+                />
+                <input
+                  type="button"
+                  value="Únete"
+                  class="starter"
+                  id="subbtn-low"
+                />
+              </span>
+            </label>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="/vainilla.js" type="text/javascript"></script>
+  </body>
+</html>
