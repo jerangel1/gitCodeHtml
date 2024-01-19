@@ -365,20 +365,20 @@ img#heroimg {
 }
 
 #img-1 {
-	background-image: url(/img/smarthome.jpg);
+	background-image: url(img/smarthome.jpg);
 }
 
 #img-2 {
 	margin-top: 15px;
-	background-image: url(/img/onboard.png);
+	background-image: url(img/onboard.png);
 }
 
 #img-3 {
-	background-image: url(/img/booking.png);
+	background-image: url(img/booking.png);
 }
 
 #img-4 {
-	background-image: url(/img/juice-product.png);
+	background-image: url(img/juice-product.png);
 }
 
 .mini-titles {
@@ -467,7 +467,7 @@ img#heroimg {
 }
 
 #tm1 {
-	background-image: url(/img/person3.jpg);
+	background-image: url(img/person3.jpg);
 	background-size: cover;
 	width: 320px;
 	height: 320px;
@@ -477,7 +477,7 @@ img#heroimg {
 }
 
 #tm2 {
-	background-image: url(/img/person1.jpg);
+	background-image: url(img/person1.jpg);
 	background-size: cover;
 	width: 260px;
 	height: 260px;
@@ -487,7 +487,7 @@ img#heroimg {
 }
 
 #tm3 {
-	background-image: url(/img/person4.png);
+	background-image: url(img/person4.png);
 	background-size: cover;
 	width: 291.43px;
 	height: 300px;
